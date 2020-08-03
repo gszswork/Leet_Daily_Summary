@@ -5,7 +5,7 @@
 给出一个方法判断两个骰子是否一样。
 
 ![image](http://github.com/gszswork/Leet_Daily_Summary/Cube_painting/ima/cube1.png)
-
+![image](/ima/cube1.png)
 
 ### 思路：将一枚骰子保持不变，翻转另外一个看是否能达到一致。
 
