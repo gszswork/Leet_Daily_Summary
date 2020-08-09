@@ -9,7 +9,7 @@ N个数字，扔掉任意个，然后把剩下的拆分成两组和（SUM）相�
 
 
 ## 代码解法：
-'''
+```
 ret = MAX_INT_VALUE
 void dfs(int id, int l, int r, int drop){
 if ( id == length + 1 ){          //If the deep first search ends
@@ -23,6 +23,6 @@ dfs( id+1, l, r + a[id], drop ); //current item a[id] separate to r
 dfs( id+1, l, r, drop + a[id] ); //current item a[id] separate to drop
 }
 
-'''
+```
 
 该dfs会搜索所有可能的结果，每种搜索结束后，如果drop的值小于ret，就更新ret，这样最后返回的ret的值就是最小的。
